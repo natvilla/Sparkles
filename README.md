@@ -6,9 +6,7 @@ This theme is meant to be light and playful. I am fairly new to Brackets and thi
 
 For other themes and install instructions see the [http://brackets-themes.github.io/](http://brackets-themes.github.io/)
 
-## Change Log
-## Version 1.1.2 - If you have [Documents toolbar](https://github.com/dnbard/brackets-documents-toolbar) installed your default tab background color will now match the theme's background.
-
+# Screenshots
 ## CSS 
 ![Sparkles Theme in a CSS file](screenshots/sparkles-css.png)
 

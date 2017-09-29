@@ -1,0 +1,19 @@
+{
+    "title": "Sparkles Theme",
+    "name": "nataleevilla.sparkles-theme",
+    "description": "Sparkles theme for Brackets",
+    "version": "1.0.0",
+    "author": "Natalee Villa <natalee.villa@gmail.com> (http://github.com/natvilla)",
+    "homepage": "https://github.com/natvilla/Sparkles",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/natvilla/Sparkles.git"
+    },
+    "theme": {
+        "file": "theme.less",
+        "dark": false,
+        "addModeClass": true
+    },
+    "keywords": ["theme","80s","light","colorful","playful"],
+    "screenshot": "sparkles.png"
+}

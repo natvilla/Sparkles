@@ -21,6 +21,8 @@
 // Style definitions are from
 // https://github.com/chriskempson/tomorrow-theme/tree/master/Brackets
 
+// Started with DarkTheme/main.less
+
 /*
  * Brackets Default Theme
  *
@@ -37,6 +39,7 @@
 /* Define some variables used in multiple places */
 @background: #dbf0ef;
 @foreground: #ffa24c; 
+@comment: #84ad8f;
 
 /* Code Styling */
 
@@ -55,11 +58,11 @@
 
 .CodeMirror-focused .CodeMirror-activeline {
     .CodeMirror-gutter-elt {
-        background: rgba(0, 0, 0, 0.2);
+        background: #d19fe4;
         color: #fff;
     }
     .inline-widget .CodeMirror-gutter-elt {
-        color: #84ad8f;
+        color: @comment;
     }
 }
 
@@ -67,7 +70,7 @@
 .cm-number, .cm-attribute, .cm-plus {color: #60bd4b;}		
 .cm-def, .cm-property {color: #4b96da;} 				
 .cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
-.cm-comment {color: #84ad8f;}	
+.cm-comment {color: @comment;}	
 .cm-minus {color: #ee4143;}		
 .cm-header {color: #d85896;}	
 .cm-link {color: #b463d3; text-decoration: none;}	
@@ -78,7 +81,7 @@
 /* Extra CSS */
 
 .CodeMirror-searching {
-    background-color: #f9e9ad;		
+    background-color: #feed90;		
     &.searching-current-match {
         background-color: #f6a644;	
     }
@@ -95,7 +98,7 @@
 }
 
 .CodeMirror-linenumber {
-    color: #84ad8f;
+    color: @comment;
 }
 
 .CodeMirror .CodeMirror-selected {
@@ -107,8 +110,8 @@
 
 .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
     /* Ensure visibility against gray inline editor background */
-    background-color: #f9e9ad;			
-    color: #ec73a7 !important;
+    background-color: #ec73a7;		
+    color: #f9e9ad !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {  
@@ -142,16 +145,16 @@
 
     .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
         background: transparent;
-        color: #84ad8f;
+        color: @comment;
     }
 
     .CodeMirror-focused .CodeMirror-activeline-background {
-        background: #2f2f2f;
+        background: transparent;
     }
 
     .CodeMirror-focused .CodeMirror-activeline {
         .CodeMirror-gutter-elt {
-            background: rgba(0, 0, 0, 0.2);
+            background: #d19fe4;
             color: #fff;
         }
     }
@@ -163,13 +166,11 @@
 .CodeMirror-foldgutter-folded:after {
     color: #aaa;
 }
-
 .CodeMirror.over-gutter, .CodeMirror-activeline {
     .CodeMirror-foldgutter-open:after {
         color: #888;
     }
 }
-
 .CodeMirror-foldmarker {
     border-color: #352a62;
     color: #ccc;

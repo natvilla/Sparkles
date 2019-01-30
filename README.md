@@ -1,6 +1,6 @@
 # Sparkles Brackets Theme
 
-This theme is meant to be light and playful. I am fairly new to Brackets and this is my first theme, so any feedback is great!
+"Like a unicorn ate a bowl of Lucky Charms and threw up on the screen..."
 
 # Installation
 
